@@ -2,7 +2,9 @@
 
 namespace App\Providers;
 
+use Illuminate\Routing\Route;
 use Illuminate\Support\ServiceProvider;
+use App\Http\Controllers\MailController;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -20,5 +22,8 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         //
+        // Route::model('SendMail', MailController::class);
+
+        // parent::boot();
     }
 }

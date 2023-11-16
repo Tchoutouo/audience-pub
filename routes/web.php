@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +16,22 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('services', function () {
+    return view('guest.services');
+});
+
+// Route::get('contact-us', function () {
+//     return view('guest.contact-us');
+// });
+
+Route::get('contact-us', function () {
+    return view('guest.contact-us');
+});
+
+Route::post('SendMail', [MailController::class, 'EnvoiMail'])->name('SendMail'); 
+
+Route::get('about-us', function () {
+    return view('guest.about-us');
 });
