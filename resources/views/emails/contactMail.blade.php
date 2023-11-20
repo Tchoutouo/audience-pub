@@ -9,9 +9,9 @@
     </head>
 
     <body>
-        <div style="background-color:white;max-width: 500px; min-height: 300px; border: solid 1px #E3242B;">
-            <div style="background-color: #E3242B; max-width: 500px; min-height: 40px;margin: auto; text-align: center">
-                <img src="" alt="Image" width="150">
+        <div style="background-color:white;max-width: 500px; min-height: 300px; border: solid 1px rgb(30, 127, 203);">
+            <div style="background-color: rgb(30, 127, 203); max-width: 500px; min-height: 40px;margin: auto; text-align: center; align-items: center;">
+                <h2 style="color: white"><b>AudiencesPub</b></h2>
             </div>
             <div style="max-width: 500px; min-height: 230px; margin: auto;">
                 <div style="padding-top: 10px; text-align: left; padding-left: 10px; padding-right: 10px;">
@@ -29,7 +29,7 @@
                 </div>
             </div>
         </div>
-            
+
     </body>
 
 </html>

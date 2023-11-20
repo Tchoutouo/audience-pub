@@ -71,8 +71,9 @@
     <div class="swiper-container" id="top">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <div class="slide-inner" style="background-image:url(assets/images/AudiencesPub.jpg)">
-                    <div class="container">
+                <div class="slide-inner">
+                    <img src="assets/images/AudiencesPub.jpg" style="height: 100%; width: 100%;">
+                    {{-- <div class="container">
                         <div class="row">
                             <div class="col-lg-8">
                                 <div class="header-text">
@@ -90,7 +91,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <div class="swiper-slide">
@@ -99,7 +100,7 @@
                         <div class="row">
                             <div class="col-lg-8">
                                 <div class="header-text">
-                                    <h2><em>Développement et implantation</em> <br> des nouveaux supports numériques innovants</h2>
+                                    <h2><em>Développement et implantation</em></h2>
                                     <div class="div-dec"></div>
                                     <p>Développement et implantation des nouveaux supports numériques innovants (de différents types) dans les villes, hôtels, arènes sportives, supermarchés destinés aux grands annonceurs.</p>
                                     <div class="buttons">
@@ -463,7 +464,7 @@
                     <div class="owl-testimonials owl-carousel" style="position: relative; z-index: 5;">
                         <div class="item">
                             <i class="fa fa-quote-left"></i>
-                           
+
                             <h4>Affichage numérique</h4>
                             <span>AudiencesPub</span>
 

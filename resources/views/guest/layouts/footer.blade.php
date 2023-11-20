@@ -49,7 +49,7 @@
                         </ul>
                     </div>
                     <div class="col-md-4 mb-md-0 mb-4">
-                        <h2 class="footer-heading">Audiences.Pub</h2>
+                        <h2 class="footer-heading">AudiencesPub</h2>
                         <ul class="list-unstyled">
                             <li><a href="#" class="d-block">Nos services</a></li>
                             <li><a href="#" class="d-block">Nos partenaires</a></li>
