@@ -826,6 +826,14 @@ section.services {
   margin-top: 30px;
 }
 
+@media (max-width: 600px){
+
+    .services .service-item {
+        min-height: 360px;
+    }
+
+}
+
 .services .service-item:hover i {
   margin-top: 15px;
 }

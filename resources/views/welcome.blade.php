@@ -358,7 +358,7 @@
                         <h4>Apporter de l’innovation dans l’affichage urbaine au Cameroun.</h4>
                         <p>Dans une société en proie à la modernisation et à la mondialisation, la notion de communication se trouve utilisée partout et pour tout. Elle semble alors avoir pris une importance notoire. Car si communiquer signifiait encore transmettre des informations, sans la prise en compte du récepteur et de son vécu, on relève aujourd'hui que, se sont greffées à cette conception de base, des valeurs principales : la relation, le partage et la communion. Ainsi communiquer devient le fait d'entretenir des relations avec autrui dans un but spécifique, le tout étant mené au travers d'une variété de supports de communication et de stratégies qui vont avoir une incidence plus ou moins pertinente sur la forme, le contenu et l'impact de la communication.</p>
                         <div class="green-button">
-                        <a href="about-us.html">A propos de nous</a>
+                        <a href="{{'about-us'}}">A propos de nous</a>
                         </div>
                     </div>
                 </div>
@@ -562,7 +562,7 @@
     </section>
 
     <div class="container d-flex justify-content-end">
-        <a style="display: table; font-family: sans-serif; text-decoration: none; margin: 1em auto; color: #fff; font-size: 0.9em; padding: 1em 2em 1em 3.5em; border-radius: 2em; font-weight: bold; background: #25d366 url('https://tochat.be/click-to-chat-directory/css/whatsapp.svg') no-repeat 1.5em center; background-size: 1.6em;" id="testbtn2" href="https://api.whatsapp.com/send?phone=237655447247&text=Hello, après avoir visiter votre site internet j'ai tenu a vous contactez directement sur whatsapp%0A" role="button" target="_blank"> Whatsapp</a>
+        <a style="display: table; font-family: sans-serif; text-decoration: none; margin: 1em auto; color: #fff; font-size: 0.9em; padding: 1em 2em 1em 3.5em; border-radius: 2em; font-weight: bold; background: #25d366 url('https://tochat.be/click-to-chat-directory/css/whatsapp.svg') no-repeat 1.5em center; background-size: 1.6em;" id="testbtn2" href="https://api.whatsapp.com/send?phone=237678864546&text=Hello, après avoir visiter votre site internet j'ai tenu a vous contactez directement sur whatsapp%0A" role="button" target="_blank"> Whatsapp</a>
 
         <a class="btn testbtn text-white fs-2 rounded-5" id="testbtn" href="#" role="button"><i class="fa-solid fa-angle-up"></i></a>
     </div>

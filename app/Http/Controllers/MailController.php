@@ -28,9 +28,17 @@ class MailController extends Controller
         ];
 
         // Envoyer le mail en utilisant le modèle ContactMail et les données du formulaire
-        Mail::to('yvalttnomdecode@gmail.com')->send(new ContactMail($data));
+        $result =  Mail::to('www.audiencespub@gmail.com')->send(new ContactMail($data));
+        
+        if($result)
+        {
+            return redirect()->back();
 
-        return redirect()->back();
+        }else{
+
+            return redirect()->back();
+
+        }
 
     }
 

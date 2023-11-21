@@ -86,10 +86,10 @@
             </div>
             <div class="col-md-6 col-lg-4 text-md-right">
                 <ul class="ftco-footer-social p-0">
-                    <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span><i class="fa-brands fa-twitter"></i></span></a></li>
+                    {{-- <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span><i class="fa-brands fa-twitter"></i></span></a></li> --}}
                     <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=100089489679209" data-toggle="tooltip" data-placement="top" title="Facebook"><span><i class="fa-brands fa-facebook"></i></span></a></li>
-                    <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Linkedin"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
-                    <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span><i class="fa-brands fa-instagram"></i></span></a></li>
+                    <li class="ftco-animate"><a href="https://cm.linkedin.com/in/jean-pierre-evogo-3a644167" data-toggle="tooltip" data-placement="top" title="Linkedin"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
+                    {{-- <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span><i class="fa-brands fa-instagram"></i></span></a></li> --}}
                 </ul>
             </div>
         </div>
