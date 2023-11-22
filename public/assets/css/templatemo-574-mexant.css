@@ -1123,6 +1123,7 @@ section.testimonials .section-heading {
 }
 
 .testimonials .item {
+    display: flex;
   border-radius: 15px;
   padding: 50px 320px 50px 50px;
   background-color: #fff;
@@ -1133,6 +1134,12 @@ section.testimonials .section-heading {
   padding-top: 35px;
 }
 
+@media screen and (max-height: 600px) {
+    .testimonials .item row {
+       flex-direction: column;
+    }
+}
+
 .testimonials .item i {
   width: 70px;
   height: 70px;
@@ -1140,7 +1147,7 @@ section.testimonials .section-heading {
   display: inline-block;
   text-align: center;
   line-height: 70px;
-  color: #fff;
+  color: #801b1b;
   font-size: 44px;
   border-radius: 5px;
   margin-bottom: 30px;

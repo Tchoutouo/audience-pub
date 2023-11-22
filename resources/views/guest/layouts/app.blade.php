@@ -3,7 +3,9 @@
 
     <head>
         <meta charset="UTF-8">
+        <link rel="icon" href="{{ url('assets/images/AudiengePublogo.png') }}">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {{-- <meta name="google-site-verification" content="oxmtYQW3E_SgY_u7H5XMQhXKrhWXLMHXytcO0fJ1tF8" /> --}}
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>@yield('title')</title>
 
@@ -20,11 +22,6 @@
         <link rel="stylesheet" href="{{asset('assets/css/animate.css')}}">
         <link rel="stylesheet" href="{{asset('css/swiper-bundle.min.css')}}">
         <link rel="stylesheet" href="{{asset('css/font-awesome.css')}}">
-
-        {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
-        {{-- <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"> --}}
-        {{-- <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700&display=swap" rel="stylesheet"> --}}
 
 		<link rel="stylesheet" href="{{asset('css/ionicons.min.css')}}">
 		<link rel="stylesheet" href="{{asset('css/test.css')}}">

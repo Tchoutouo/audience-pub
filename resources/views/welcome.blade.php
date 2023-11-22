@@ -464,7 +464,6 @@
                     <div class="owl-testimonials owl-carousel" style="position: relative; z-index: 5;">
                         <div class="item">
                             <i class="fa fa-quote-left"></i>
-
                             <h4>Affichage numérique</h4>
                             <span>AudiencesPub</span>
 
